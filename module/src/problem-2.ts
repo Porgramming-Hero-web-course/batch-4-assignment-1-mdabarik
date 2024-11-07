@@ -11,13 +11,8 @@
         return uniqueNums;
     }
     
-    
     const arr : number[] = [1, 2, 2, 3, 4, 4, 5, 5, 5, 5, 5];
     removeDuplicates(arr);
-
-
-
-
 
     //
 }
