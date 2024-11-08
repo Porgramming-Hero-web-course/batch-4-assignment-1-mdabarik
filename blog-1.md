@@ -18,7 +18,7 @@ It is a special kinds of type guard that can only use
 function greet(name) {
     console.log(`Hello, ${name}!`);
 }
+```
 
 
-
-  ### Intersection Type
+### Intersection Type
