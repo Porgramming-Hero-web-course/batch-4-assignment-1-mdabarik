@@ -3,6 +3,7 @@
     // start of block scope
     const countWordOccurrences = (str : string, key: string) : number => {
         /*
+        my strategies are --
         1. convert str and key to lowercase.
         2. remove special character from str and key using regular expression.
         3. convert cleaned str into word space separated.

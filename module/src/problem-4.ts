@@ -18,9 +18,9 @@
 
     const calculateShapeArea = (shape : Shape): number => {
         let area : number = 0;
-        if (shape.name === "circle") {
+        if ("radius" in shape) { // in operator
             area = Math.PI * shape.radius * shape.radius;
-        } else if (shape.name == "rectangle") {
+        } else if ("height" in shape && "width" in shape) { // in operator
             area = shape.height * shape.width;
         }
         return parseFloat(area.toFixed(2));
