@@ -10,7 +10,15 @@
 
 
 
-  ### Union Type
+### Union Type
+It is a special kinds of type guard that can only use
+
+```javascript
+// This is a JavaScript code block
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
+
 
 
   ### Intersection Type
