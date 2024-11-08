@@ -1,7 +1,7 @@
 
   # Blog Writing
   ## Question:
-  #### The significance of union and intersection types in Typescript.
+  #### 1.The significance of union and intersection types in Typescript.
 
   
   ## Answer:
