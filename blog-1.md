@@ -83,7 +83,7 @@ interface BackEndDev {
     skills: string[],
     designation2: 'BackendDeveloper'
 }
-interface FullStackDev = FrontEndDev & BackEndDev;
+interface FullStackDev = FrontEndDev & BackEndDev; // intersection type
 // to become FullStackDev, he/she must be frontend and backend developer as well.
 ```
 
